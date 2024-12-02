@@ -1,0 +1,31 @@
+project:
+  type: website
+
+website:
+  title: "GeoDS Course 2025"
+  announcement:
+    icon: info-circle
+    dismissable: false
+    content: "**Limited seats, [<i class='bi bi-pen'></i> Register now](https://forms.gle/pPxHH1Bzp2tNkMfT7)!**"
+    type: warning
+    position: below-navbar
+  navbar:
+    logo: uc3m.png
+    left:
+      - href: index.qmd
+        text: Home
+      - href: program.qmd
+        text: Program
+      - href: about.qmd
+        text: About
+  page-footer:
+    border: true
+    background: light
+    left:
+      - text: "Department of Statistics"
+        href: https://www.uc3m.es/departamento-estadistica/
+
+format:
+  html:
+    theme: [default, custom.scss]
+    toc: false

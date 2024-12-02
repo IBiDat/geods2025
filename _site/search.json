@@ -1,0 +1,58 @@
+[
+  {
+    "objectID": "program.html",
+    "href": "program.html",
+    "title": "Program",
+    "section": "",
+    "text": "The course is structured as follows:"
+  },
+  {
+    "objectID": "program.html#day-1-the-new-spatial-stack-in-r",
+    "href": "program.html#day-1-the-new-spatial-stack-in-r",
+    "title": "Program",
+    "section": "Day 1: The New Spatial Stack in R",
+    "text": "Day 1: The New Spatial Stack in R\nIntroduction to R’s modern spatial ecosystem, focusing on simple features, the DE-9IM spatial framework, and handling vector and raster data. Explore advanced data types, including data cubes and spatial statistics."
+  },
+  {
+    "objectID": "program.html#day-2-spatial-operations",
+    "href": "program.html#day-2-spatial-operations",
+    "title": "Program",
+    "section": "Day 2: Spatial Operations",
+    "text": "Day 2: Spatial Operations\nLearn raster-vector and vector-raster operations, including geometry measures, predicates, and transformations. Cover spherical geometry, polygonizing, rasterizing, interpolation, and dasymetric mapping. Master techniques for up- and down-scaling through aggregation, sampling, and area-weighted interpolation."
+  },
+  {
+    "objectID": "program.html#day-3-inference-in-spatial-data",
+    "href": "program.html#day-3-inference-in-spatial-data",
+    "title": "Program",
+    "section": "Day 3: Inference in Spatial Data",
+    "text": "Day 3: Inference in Spatial Data\nDive into spatial correlation analysis for point patterns, geostatistical, and lattice data. Develop skills in fitting regression models that account for spatial correlation."
+  },
+  {
+    "objectID": "program.html#day-4-prediction-and-simulation",
+    "href": "program.html#day-4-prediction-and-simulation",
+    "title": "Program",
+    "section": "Day 4: Prediction and Simulation",
+    "text": "Day 4: Prediction and Simulation\nAdvance to predictive modeling, including density estimation and simulating point patterns. Learn geostatistical methods such as kriging and conditional simulation, along with Gaussian Markov Random Field (GMRF) simulations."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Geospatial Data Science in R",
+    "section": "",
+    "text": "This course offers an in-depth exploration of geospatial data science using R, designed for researchers and practitioners seeking to enhance their analytical capabilities in spatial data. Participants will gain practical experience with R’s latest spatial data technologies, integrating theory with hands-on applications. By the end of the course, participants will be equipped to apply geospatial data science techniques to real-world problems, leveraging the full power of R’s spatial tools."
+  },
+  {
+    "objectID": "index.html#instructor",
+    "href": "index.html#instructor",
+    "title": "Geospatial Data Science in R",
+    "section": "Instructor",
+    "text": "Instructor\nDr. Edzer Pebesma is Professor of Geoinformatics at University of Münster, Germany. His research interests include the computational and statistical modelling of spatio-temporal phenomena at the geographical scale."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "Edzer Pebesma",
+    "section": "",
+    "text": "Prof. Pebesma leads the Spatio-Temporal Modelling Laboratory at the Institute for Geoinformatics, University of Münster, where he also serves as Dean of Faculty and Deputy Head of Institute. Holding a PhD in Geosciences, his research interests span spatial statistics, environmental modeling, geoinformatics, GI Science, and semantic technologies for spatial analysis. He is also focused on optimizing environmental monitoring, e-Science, and promoting reproducible research.\nAn ordinary member of the R Foundation, Prof. Pebesma is co-author of Spatial Data Science: With Applications in R and the second edition of Applied Spatial Data Analysis with R. He has served as a section editor for the Journal of Statistical Software (2015-2021) and was an associate editor for Spatial Statistics. Prof. Pebesma strongly believes in the practical value of research, particularly when it addresses real-world problems."
+  }
+]

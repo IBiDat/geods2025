@@ -1,0 +1,19 @@
+---
+title: "Program"
+bibliography: references.bib
+nocite: "@sds, @asdar"
+---
+
+The course is structured as follows:
+
+## Day 1: The New Spatial Stack in R
+Introduction to R's modern spatial ecosystem, focusing on simple features, the DE-9IM spatial framework, and handling vector and raster data. Explore advanced data types, including data cubes and spatial statistics.
+
+## Day 2: Spatial Operations
+Learn raster-vector and vector-raster operations, including geometry measures, predicates, and transformations. Cover spherical geometry, polygonizing, rasterizing, interpolation, and dasymetric mapping. Master techniques for up- and down-scaling through aggregation, sampling, and area-weighted interpolation.
+
+## Day 3: Inference in Spatial Data
+Dive into spatial correlation analysis for point patterns, geostatistical, and lattice data. Develop skills in fitting regression models that account for spatial correlation.
+
+## Day 4: Prediction and Simulation
+Advance to predictive modeling, including density estimation and simulating point patterns. Learn geostatistical methods such as kriging and conditional simulation, along with Gaussian Markov Random Field (GMRF) simulations.

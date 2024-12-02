@@ -1,0 +1,19 @@
+---
+title: "Edzer Pebesma"
+about:
+  template: trestles
+  image-width: 15em
+  image: https://ifgi.uni-muenster.de/ifgilogin/contracts/images/foto_752_Pebesma.jpg
+  links:
+    - icon: github
+      text: GitHub
+      href: https://github.com/edzer
+    - text: "{{< iconify fa6-brands orcid >}} ORCID"
+      href: https://orcid.org/0000-0001-8049-7069
+    - text: "{{< iconify fa6-brands google-scholar >}} Scholar"
+      href: https://scholar.google.com/citations?user=d6jdqdQAAAAJ
+---
+
+Prof. Pebesma leads the [Spatio-Temporal Modelling Laboratory](https://www.uni-muenster.de/Geoinformatics/en/stml/) at the [Institute for Geoinformatics](https://www.uni-muenster.de/Geoinformatics/en/), University of Münster, where he also serves as Dean of Faculty and Deputy Head of Institute. Holding a PhD in Geosciences, his research interests span spatial statistics, environmental modeling, geoinformatics, GI Science, and semantic technologies for spatial analysis. He is also focused on optimizing environmental monitoring, e-Science, and promoting reproducible research.
+
+An ordinary member of the R Foundation, Prof. Pebesma is co-author of [Spatial Data Science: With Applications in R](https://r-spatial.org/book/) and the second edition of [Applied Spatial Data Analysis with R](https://asdar-book.org/). He has served as a section editor for the [Journal of Statistical Software](https://www.jstatsoft.org/index) (2015-2021) and was an associate editor for Spatial Statistics. Prof. Pebesma strongly believes in the practical value of research, particularly when it addresses real-world problems.
