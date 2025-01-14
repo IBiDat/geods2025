@@ -23,8 +23,19 @@ Campus de Getafe, Campomanes building, room 10.0.30
 
 ## Pre-requisites
 
-Basic knowledge of statistical modelling with R.<br>
-Participants should bring their own laptops with R and RStudio installed.
+- Basic knowledge of statistical modelling with R.
+- Participants should bring their own laptops with **R and RStudio installed**.
+- Some **package dependencies** are heavy, so it is recommended to install them
+  beforehand as follows:
+  ```{r, eval=FALSE}
+  install.packages(c("sf", "stars", "terra", "s2", "gstat", "spatstat", "spdep", "spatialreg", "mgcv"))
+  install.packages("starsdata", repos = "https://cran.uni-muenster.de/pebesma", type = "source")
+  install.packages("spDataLarge", repos = "https://nowosad.github.io/drat/", type = "source")
+  ```
+- **R-INLA** is required too. For OS-specific installation instructions,
+  see [this link](https://www.r-inla.org/download-install)
+- If time permits, the instructor suggests reading the following chapters from
+  [Spatial Data Science](https://r-spatial.org/book/):<br>3-7, 10-12, 14-16
 
 :::
 

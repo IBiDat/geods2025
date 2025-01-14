@@ -20,6 +20,40 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
 </style>
 
 
@@ -163,7 +197,18 @@ Pre-requisites
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>Basic knowledge of statistical modelling with R.<br> Participants should bring their own laptops with R and RStudio installed.</p>
+<ul>
+<li><p>Basic knowledge of statistical modelling with R.</p></li>
+<li><p>Participants should bring their own laptops with <strong>R and RStudio installed</strong>.</p></li>
+<li><p>Some <strong>package dependencies</strong> are heavy, so it is recommended to install them beforehand as follows:</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">install.packages</span>(<span class="fu">c</span>(<span class="st">"sf"</span>, <span class="st">"stars"</span>, <span class="st">"terra"</span>, <span class="st">"s2"</span>, <span class="st">"gstat"</span>, <span class="st">"spatstat"</span>, <span class="st">"spdep"</span>, <span class="st">"spatialreg"</span>, <span class="st">"mgcv"</span>))</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="fu">install.packages</span>(<span class="st">"starsdata"</span>, <span class="at">repos =</span> <span class="st">"https://cran.uni-muenster.de/pebesma"</span>, <span class="at">type =</span> <span class="st">"source"</span>)</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="fu">install.packages</span>(<span class="st">"spDataLarge"</span>, <span class="at">repos =</span> <span class="st">"https://nowosad.github.io/drat/"</span>, <span class="at">type =</span> <span class="st">"source"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div></li>
+<li><p><strong>R-INLA</strong> is required too. For OS-specific installation instructions, see <a href="https://www.r-inla.org/download-install">this link</a></p></li>
+<li><p>If time permits, the instructor suggests reading the following chapters from <a href="https://r-spatial.org/book/">Spatial Data Science</a>:<br>3-7, 10-12, 14-16</p></li>
+</ul>
 </div>
 </div>
 <section id="instructor" class="level2">
